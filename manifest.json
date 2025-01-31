@@ -1,0 +1,39 @@
+{
+	"name": "Jungle Reader Sidebar",
+	"description": "Displays Jungle Reader in the sidebar.",
+	"version": "1.0",
+	"applications": {
+		"gecko": {
+		  "strict_min_version": "60.0"
+		}
+	},
+	"icons": {
+		"128": "favicon.ico"
+	},
+
+	"sidebar_action": {
+		"default_title": "Jungle Reader",
+		"default_panel": "panel.html",
+		"default_icon": {
+			"128": "favicon.ico"
+		},
+		"open_at_install":true
+	},
+
+	"commands": {
+		"_execute_sidebar_action": {
+			"suggested_key": {
+				"default": "Shift+Alt+J"
+			},
+			"description": "Toggle Jungle Reader"
+		}
+	},
+
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "JungleReader-Sidebar@OutshineIssue.github.com"
+		}
+	},
+	
+	"manifest_version": 3
+}
